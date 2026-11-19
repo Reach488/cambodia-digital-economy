@@ -1,0 +1,170 @@
+{
+  "source": "World Bank, World Development Indicators (WDI)",
+  "source_url": "https://data.worldbank.org/",
+  "api": "https://api.worldbank.org/v2",
+  "license": "CC BY 4.0",
+  "retrieved_at_utc": "2026-11-19T15:01:53+00:00",
+  "requested_years": "2000-2026",
+  "dataset_year_range": [
+    2000,
+    2025
+  ],
+  "rows": 832,
+  "countries": {
+    "KHM": {
+      "name": "Cambodia",
+      "world_bank_name": "Cambodia"
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "world_bank_name": "Viet Nam"
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "world_bank_name": "Myanmar"
+    },
+    "LAO": {
+      "name": "Laos",
+      "world_bank_name": "Lao PDR"
+    }
+  },
+  "indicators": {
+    "NY.GDP.MKTP.KD.ZG": {
+      "name": "GDP growth",
+      "unit": "annual %",
+      "category": "Economics",
+      "world_bank_name": "GDP growth (annual %)",
+      "source_organization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+      "definition": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. This indicator denotes the percentage change over each previous year of the constant price (base year 2015) series in United States dollars.",
+      "database_last_updated": "2026-11-11",
+      "observations": 104,
+      "missing": 0,
+      "latest_year": {
+        "KHM": 2025,
+        "VNM": 2025,
+        "MMR": 2025,
+        "LAO": 2025
+      }
+    },
+    "NY.GDP.PCAP.CD": {
+      "name": "GDP per capita",
+      "unit": "current US$",
+      "category": "Economics",
+      "world_bank_name": "GDP per capita (current US$)",
+      "source_organization": "Country official statistics, National Statistical Organizations and/or Central Banks;\nNational Accounts data files, Organisation for Economic Co-operation and Development (OECD);\nStaff estimates, World Bank (WB)",
+      "definition": "Gross domestic product is the total income earned through the production of goods and services in an economic territory during an accounting period. It can be measured in three different ways: using either the expenditure approach, the income approach, or the production approach. The core indicator has been divided by the general population to achieve a per capita estimate.This indicator is expressed in current prices, meaning no adjustment has been made to account for price changes over time. This indicator is expressed in United States dollars.",
+      "database_last_updated": "2026-11-11",
+      "observations": 104,
+      "missing": 0,
+      "latest_year": {
+        "KHM": 2025,
+        "VNM": 2025,
+        "MMR": 2025,
+        "LAO": 2025
+      }
+    },
+    "FP.CPI.TOTL.ZG": {
+      "name": "Inflation",
+      "unit": "consumer prices, annual %",
+      "category": "Economics",
+      "world_bank_name": "Inflation, consumer prices (annual %)",
+      "source_organization": "International Financial Statistics database, International Monetary Fund (IMF)",
+      "definition": "Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly.",
+      "database_last_updated": "2026-11-11",
+      "observations": 98,
+      "missing": 6,
+      "latest_year": {
+        "KHM": 2025,
+        "VNM": 2025,
+        "MMR": 2019,
+        "LAO": 2025
+      }
+    },
+    "BX.KLT.DINV.WD.GD.ZS": {
+      "name": "FDI net inflows",
+      "unit": "% of GDP",
+      "category": "Economics",
+      "world_bank_name": "Foreign direct investment, net inflows (% of GDP)",
+      "source_organization": "International Financial Statistics and Balance of Payments databases, International Monetary Fund (IMF);\nInternational Debt Statistics, World Bank (WB);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+      "definition": "Foreign direct investment is the net inflows of investment to acquire a lasting management interest (10 percent or more of voting stock) in an enterprise operating in an economy other than that of the investor. It is the sum of equity capital, reinvestment of earnings, other long-term capital, and short-term capital as shown in the balance of payments. This series shows net inflows (new investment inflows less disinvestment) in the reporting economy from foreign investors, and is divided by GDP.",
+      "database_last_updated": "2026-11-11",
+      "observations": 104,
+      "missing": 0,
+      "latest_year": {
+        "KHM": 2025,
+        "VNM": 2025,
+        "MMR": 2025,
+        "LAO": 2025
+      }
+    },
+    "BX.TRF.PWKR.DT.GD.ZS": {
+      "name": "Remittances received",
+      "unit": "% of GDP",
+      "category": "Economics",
+      "world_bank_name": "Personal remittances, received (% of GDP)",
+      "source_organization": "Staff estimates, World Bank (WB);\nIMF balance of payments data, International Monetary Fund (IMF);\nWorld Bank GDP estimates, World Bank (WB);\nOECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",
+      "definition": "Personal remittances comprise personal transfers and compensation of employees. Personal transfers consist of all current transfers in cash or in kind made or received by resident households to or from nonresident households. Personal transfers thus include all current transfers between resident and nonresident individuals. Compensation of employees refers to the income of border, seasonal, and other short-term workers who are employed in an economy where they are not resident and of residents employed by nonresident entities. Data are the sum of two items defined in the sixth edition of the IMF's Balance of Payments Manual: personal transfers and compensation of employees.",
+      "database_last_updated": "2026-11-11",
+      "observations": 77,
+      "missing": 27,
+      "latest_year": {
+        "KHM": 2025,
+        "VNM": 2004,
+        "MMR": 2019,
+        "LAO": 2025
+      }
+    },
+    "IT.NET.USER.ZS": {
+      "name": "Internet users",
+      "unit": "% of population",
+      "category": "Digital development",
+      "world_bank_name": "Individuals using the Internet (% of population)",
+      "source_organization": "World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU), uri: https://datahub.itu.int/",
+      "definition": "Internet users are individuals who have used the Internet (from any location) in the last 3 months. The Internet can be used via a computer, mobile phone, personal digital assistant, games machine, digital TV etc.",
+      "database_last_updated": "2026-11-11",
+      "observations": 95,
+      "missing": 9,
+      "latest_year": {
+        "KHM": 2024,
+        "VNM": 2024,
+        "MMR": 2020,
+        "LAO": 2024
+      }
+    },
+    "IT.CEL.SETS.P2": {
+      "name": "Mobile subscriptions",
+      "unit": "per 100 people",
+      "category": "Digital development",
+      "world_bank_name": "Mobile cellular subscriptions (per 100 people)",
+      "source_organization": "World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU)",
+      "definition": "Mobile cellular telephone subscriptions are subscriptions to a public mobile telephone service that provide access to the PSTN using cellular technology. The indicator includes (and is split into) the number of postpaid subscriptions, and the number of active prepaid accounts (i.e. that have been used during the last three months). The indicator applies to all mobile cellular subscriptions that offer voice communications. It excludes subscriptions via data cards or USB modems, subscriptions to public mobile data services, private trunked mobile radio, telepoint, radio paging and telemetry services.",
+      "database_last_updated": "2026-11-11",
+      "observations": 99,
+      "missing": 5,
+      "latest_year": {
+        "KHM": 2024,
+        "VNM": 2024,
+        "MMR": 2024,
+        "LAO": 2023
+      }
+    },
+    "IT.NET.SECR.P6": {
+      "name": "Secure Internet servers",
+      "unit": "per 1 million people",
+      "category": "Digital infrastructure",
+      "note": "A digital infrastructure indicator: distinct, publicly-trusted TLS/SSL certificates found by Netcraft's Secure Server Survey, counted by hosting country, per 1 million people. It is NOT a comprehensive measure of cybersecurity readiness or national cyber resilience.",
+      "world_bank_name": "Secure Internet servers (per 1 million people)",
+      "source_organization": "Secure Server Survey, Netcraft, uri: http://www.netcraft.com/;\nWorld Bank population estimates, World Bank (WB)",
+      "definition": "The number of distinct, publicly-trusted TLS/SSL certificates found in the Netcraft Secure Server Survey (by hosting country), per 1 million people.",
+      "database_last_updated": "2026-11-11",
+      "observations": 60,
+      "missing": 44,
+      "latest_year": {
+        "KHM": 2024,
+        "VNM": 2024,
+        "MMR": 2024,
+        "LAO": 2024
+      }
+    }
+  }
+}

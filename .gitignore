@@ -1,0 +1,17 @@
+# Virtual environment (rebuilt from requirements.txt, never committed)
+.venv/
+
+# Python cache files (generated automatically)
+__pycache__/
+*.pyc
+
+# Jupyter autosave checkpoints
+.ipynb_checkpoints/
+
+# Secrets: never commit these
+.env
+.streamlit/secrets.toml
+
+# Operating system files
+Thumbs.db
+.DS_Store

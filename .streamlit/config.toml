@@ -1,0 +1,15 @@
+# Streamlit settings for this dashboard (read automatically by `streamlit run`).
+
+# Neutral grey for widgets (selected countries, focus outlines), so no widget
+# colour competes with the country colours used in the charts. Setting it under
+# [theme.light] and [theme.dark] (not plain [theme]) keeps automatic light/dark
+# mode: a plain [theme] section would replace both with one light theme.
+[theme.light]
+primaryColor = "#52514e"
+
+[theme.dark]
+primaryColor = "#52514e"
+
+[browser]
+# Do not send usage statistics to Streamlit.
+gatherUsageStats = false
